@@ -3,12 +3,17 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+import { useEffect } from 'react';
 import { motion } from 'motion/react';
 import { ShoppingCart, HardHat, ShieldCheck, Hammer, Instagram, Facebook, Twitter } from 'lucide-react';
 
 const PRINTFUL_STORE_URL = "https://shopfloorclothing.printful.me/";
 
 export default function App() {
+  useEffect(() => {
+    document.title = "Shop Floor Clothing | Machinist Shirts & Shop Floor Apparel";
+  }, []);
+
   return (
     <div className="min-h-screen bg-steel-900 font-sans selection:bg-brand-orange selection:text-white">
       {/* Navigation */}
