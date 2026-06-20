@@ -6,7 +6,7 @@
 import { motion } from 'motion/react';
 import { ShoppingCart, HardHat, ShieldCheck, Hammer, Instagram, Facebook, Twitter } from 'lucide-react';
 
-const PRINTFUL_STORE_URL = "https://www.printful.com/"; // Placeholder to be updated later
+const PRINTFUL_STORE_URL = "https://shopfloorclothing.printful.me/";
 
 export default function App() {
   return (
