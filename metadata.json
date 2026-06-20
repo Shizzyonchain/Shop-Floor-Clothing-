@@ -1,0 +1,6 @@
+{
+  "name": "Shop Floor Clothing",
+  "description": "A premium e-commerce landing page for a blue-collar apparel brand.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
